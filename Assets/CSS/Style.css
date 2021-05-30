@@ -1,0 +1,120 @@
+/*
+    👑Solopreneur 🖥️Full-Stack Developer 💸Freelancer
+    Author : Nitin Chakraborty.
+    eMail : nitin.chakraborty13@gmail.com
+*/
+
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap");
+
+/* Reset */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Color */
+:root {
+	--text-colour: #00aa00;
+}
+
+/* Body */
+body {
+	font-family: "Source Code Pro", monospace;
+	background-color: #333;
+	color: #ccc;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* H1 */
+h1 {
+	color: var(--text-colour);
+	font-size: 50px;
+	letter-spacing: -5px;
+	margin-bottom: 20px;
+}
+
+/* H2 */
+h2 {
+	color: var(--text-colour);
+}
+
+/* H3 */
+h3 {
+	margin-bottom: 10px;
+}
+
+/* Unordered List */
+ul {
+	list-style-type: none;
+}
+
+/* Anchor */
+a {
+	color: var(--text-colour);
+	text-decoration: none;
+}
+
+/* Paragraph */
+p {
+	margin: 20px 0;
+}
+
+/* Navigation */
+nav {
+	width: 30%;
+}
+
+/* Navigation > Unordered List */
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* Navigation > Unordered List > List */
+nav ul li {
+	color: var(--text-colour);
+	cursor: pointer;
+}
+
+/* Container */
+.container {
+	max-width: 600px;
+	margin: auto;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* WinBox-Body */
+.wb-body {
+	background: #111;
+	padding: 20px;
+}
+
+/* Hidden */
+.hidden {
+	display: none;
+}
+
+/* Cursor */
+.cursor {
+	font-weight: 500;
+	animation: 1s blink step-end infinite;
+}
+
+/* Blink */
+@keyframes blink {
+	from,
+	to {
+		color: transparent;
+	}
+	50% {
+		color: var(--text-colour);
+	}
+}
